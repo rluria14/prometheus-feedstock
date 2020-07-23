@@ -5,7 +5,7 @@ Home: https://prometheus.io/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Prometheus, a Cloud Native Computing Foundation project, is a systems and service monitoring system.
 
