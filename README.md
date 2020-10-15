@@ -5,11 +5,13 @@ Home: https://prometheus.io/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prometheus-feedstock/blob/master/LICENSE.txt)
 
 Summary: Prometheus, a Cloud Native Computing Foundation project, is a systems and service monitoring system.
 
+Development: https://github.com/prometheus/prometheus
 
+Documentation: https://prometheus.io/docs/introduction/overview/
 
 Current build status
 ====================
