@@ -18,10 +18,11 @@ build:
   skip: true  # [win]
   number: 0
   script:
-    - pushd {{ pkg_src }}/cmd/{{ name }}
-    - GOBIN=$(go env GOBIN)  # [not win]
-    - go build -v -o $GOBIN/{{ name }} .       # [unix]
-    - go build -v -o %GOBIN%\{{ name }}.exe .  # [win]
+    - pushd {{ pkg_src }}
+    - make build
+#    - GOBIN=$(go env GOBIN)  # [not win]
+#    - go build -v -o $GOBIN/{{ name }} .       # [unix]
+#    - go build -v -o %GOBIN%\{{ name }}.exe .  # [win]
 
 requirements:
   build:
